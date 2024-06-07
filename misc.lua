@@ -3,8 +3,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Jeremyrock326/Jeremyr
 loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 
 local settings = {
-   AutoChat_Time = 0,
-   AutoChat_Delay = 0,
+   AutoChat_Time = 1,
+   AutoChat_Delay = 1,
    AutoChat = true,
 }
  
