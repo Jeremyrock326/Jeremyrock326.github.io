@@ -4,6 +4,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scrip
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 
+setfpscap(0)
+
 local settings = {
    AutoChat_Time = 1,
    AutoChat_Delay = 1,
