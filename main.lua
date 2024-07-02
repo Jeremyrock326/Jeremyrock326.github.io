@@ -6,6 +6,11 @@
 
 -- Instances:
 
+if table.find({Enum.Platform.IOS, Enum.Platform.Android}, game:GetService("UserInputService"):GetPlatform()) then
+    
+end
+
+
 local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
