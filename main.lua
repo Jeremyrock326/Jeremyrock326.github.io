@@ -6,6 +6,7 @@
 
 -- Instances:
 
+
 if table.find({Enum.Platform.IOS, Enum.Platform.Android}, game:GetService("UserInputService"):GetPlatform()) then
     
 end
