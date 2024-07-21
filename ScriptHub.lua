@@ -56,9 +56,13 @@ Section:NewButton("Ban Hammer", "FE", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Jeremyrock326/Jeremyrock326.github.io/main/hacks.lua"))()
 end)
 
+Section:NewButton("FE Collision Enabler", "FE", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Jeremyrock326/Jeremyrock326.github.io/main/collisionenabled.lua"))()
+end)
+
 -- Script Hubs
-local Tab = Window:NewTab("FE Trolling")
-local HubSection = Tab:NewSection("FE Trolling")
+local Tab = Window:NewTab("Script Hubs")
+local HubSection = Tab:NewSection("Script Hubs")
  
 HubSection:NewButton("Animations Bundles Pack (Only R15)", "Free Animations Bundles", function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/MLCyiK1C'),true))()
