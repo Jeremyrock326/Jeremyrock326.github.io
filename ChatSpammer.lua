@@ -7,6 +7,6 @@ local settings = {
 local chatrem = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
  
 while task.wait(settings.AutoChat_Time) do
-    chatrem:FireServer('Chat Spammed', "All")
+    chatrem:FireServer('W', "All")
     print("Sent Message")
 end
