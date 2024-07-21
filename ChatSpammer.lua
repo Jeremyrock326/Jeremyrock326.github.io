@@ -7,6 +7,6 @@ local settings = {
 local chatrem = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
  
 while task.wait(settings.AutoChat_Time) do
-    chatrem:FireServer('Roblox bedwars anticheat bypass made by freezy', "All")
+    chatrem:FireServer('Chat Spammed', "All")
     print("Sent Message")
 end
