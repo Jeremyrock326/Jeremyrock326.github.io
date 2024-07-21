@@ -52,6 +52,9 @@ Section:NewButton("Btools Script", "Hats: 6 Items Max!", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts/main/FE%20BTools(UPDATE1).lua", true))()
 end)
 
+Section:NewButton("Ban Hammer", "FE", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Jeremyrock326/Jeremyrock326.github.io/main/hacks.lua"))()
+end)
 
 -- Script Hubs
 local Tab = Window:NewTab("FE Trolling")
@@ -97,8 +100,12 @@ HubSection:NewButton("Blox Fruits HOHO HUB","OP Hub For Blox Fruits", function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
    end)
 
-HubSection:NewButton("Doors Script ","Doors Script ", function()
+HubSection:NewButton("Doors Script","Doors Script", function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/zoophiliaphobic/POOPDOORS/main/script.lua'))()
+end)
+
+HubSection:NewButton("C00lkidd","FE", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/Jeremyrock326/Jeremyrock326.github.io/main/coolkidd.lua'))()
 end)
 
 local Tab = Window:NewTab("18+")
