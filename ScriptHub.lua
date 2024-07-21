@@ -60,6 +60,10 @@ Section:NewButton("FE Collision Enabler", "FE", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Jeremyrock326/Jeremyrock326.github.io/main/collisionenabled.lua"))()
 end)
 
+Section:NewButton("FE Chat Bypasser", "FE", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/allnamesarelet/ChatBypasser/main/Main.lua"))()
+end)
+
 -- Script Hubs
 local Tab = Window:NewTab("Script Hubs")
 local HubSection = Tab:NewSection("Script Hubs")
