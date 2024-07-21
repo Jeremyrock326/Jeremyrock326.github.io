@@ -104,7 +104,7 @@ HubSection:NewButton("Doors Script","Doors Script", function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/zoophiliaphobic/POOPDOORS/main/script.lua'))()
 end)
 
-HubSection:NewButton("C00lkidd","FE", function()
+HubSection:NewButton("C00lkidd Script Hub","FE", function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/Jeremyrock326/Jeremyrock326.github.io/main/coolkidd.lua'))()
 end)
 
