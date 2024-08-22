@@ -49,10 +49,8 @@ local hookfunc = hookfunc or hookfunction or replaceclosure or false
 
 -- what the fuck
 if (mousemove == false) then return LocalPlayer:Kick("Exploit not supported! Missing: mousemove.") end
-if (getsenv == false) then return LocalPlayer:Kick("Exploit not supported! Missing: getsenv.") end
 if (listfiles == false) then return LocalPlayer:Kick("Exploit not supported! Missing: listfiles.") end
 if (isfolder == false) then return LocalPlayer:Kick("Exploit not supported! Missing: isfolder.") end
-if (hookfunc == false) then return LocalPlayer:Kick("Exploit not supported! Missing: hookfunc.") end
 
 Hint.Text = "Hexagon | Setting up configuration settings..."
 
